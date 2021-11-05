@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!doctype HTML>
+<main>
+  <h1 id="title">A Certain Survey Form</h1>
+  <p id="description">Thank you for taking your time to answer this survey!</p>
+  <form id="survey-form">
+  <h3>Name</h3>
+    <label id="name-label">
+      <input type="text" id="name" placeholder="Enter your name" required>~</label>
+  <h3>Email</h3>
+    <label id="email-label">
+      <input type="email" id="email" placeholder="Enter your email address" required>~</label>
+  <h3>Age (Optional)</h3>
+    <label id="number-label">
+      <input type="number" id="number" placeholder="Enter your age" min="0" max="150">~</label>
+    <h3>Choose your favourite animal</h3>
+    <label for="animals">Choose favourite animal</label>
+    <select name="animals" id="dropdown">
+      <option value>cat</option>
+      <option value>dog</option>
+      <option value>bird</option>
+      <option value>guinea pig</option>
+      <option value>other</option>
+    </select>
+    <h3>How do you approach life?</h3>
+    <label>
+      <input type="radio" value="ikigai" name="ikigai-nihilism">ikigai 
+    </label>
+    <br>
+    <label>
+      <input type="radio" value="nihilism" name="ikigai-nihilism">nihilism
+    </label>
+    <h3>What are your favourite ice-cream flavours?</h3>
+    <label for="chocolate"><input id="chocolate" value="chocolate" type="checkbox" name="flavour">Chocolate</label>
+    <label for="vanilla"><input id="vanilla" value="vanilla" type="checkbox" name="flavour">Vanilla</label>
+    <label for="bubblegum"><input id="bubblegum" value="bubblegum" type="checkbox" name="flavour">Bubblegum</label>
+    <h3>Any further questions or comments?</h3>
+    <textarea></textarea>
+    <br>
+    <button type="submit" id="submit" >Submit</button>
+  </form>
+    </main>
+  </html>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
